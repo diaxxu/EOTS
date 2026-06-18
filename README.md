@@ -21,9 +21,11 @@ The custom 4-layer control board isolates high-frequency digital lines from high
 * **Gate Drivers:** Dual DRV8313 triple half-bridge drivers managing motor phase currents.
 * **Interconnects:** 6-pin JST-XH vertical locking headers (B6B-XH-A) route encoder inputs directly into the MCU timers.
 * **Power Delivery:** Main system power is distributed via a high-amperage XT60 connector.
-### schematics 
+### Schematics 
 ![EOTS 3D CAD Render](pics/schem.png)
+### Layout
 ![EOTS 3D CAD Render](pics/pcb.png)
+### 3D render
 ![EOTS 3D CAD Render](pics/real.png)
 ## Mechatronics & Actuation
 The mechanical assembly routes power and signals through continuous rotational axes without tangling internal wiring.
