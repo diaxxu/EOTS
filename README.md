@@ -40,6 +40,27 @@ The sealed sphere housing protects a dual-sensor array running image processing 
 * **Primary Optical:** IMX219 high-resolution camera module for target detection and optical zoom tracking.
 * **Thermal Matrix:** AMG8833 8x8 infrared thermopile array for long-wave thermal signature targeting.
 * **Processing Unit:** Raspberry Pi Zero 2 W handles localized video streaming, telemetry generation, and targeting overlays.
+  
+---
+
+## 🚀 How to Use It
+
+Follow these steps to set up, flash, assemble, and operate the EOTS gimbal:
+
+### 1. Hardware Assembly & Mechanical Setup
+* **Mount the Actuators:** Secure the two 2804 100KV brushless motors into their respective pan and tilt axis slots on the custom metal 3D-printed yoke chassis.
+* **Route the Wiring:** Feed the motor and camera wiring through the center of the 12-wire slip ring to ensure the panning axis can rotate infinitely without binding or straining the cables.
+* **Secure the Payload:** Mount the dual-camera housing (containing the IMX219 optical camera and AMG8833 thermal array) onto the tilt axis bracket, ensuring the AS5048A magnetic encoders align perfectly with the motor magnets for precise feedback.
+
+### 2. Flashing the FOC Board Firmware
+* **Connect to Power/Data:** Plug a USB-C data cable into the onboard port of the custom FOC driver board.
+* **Compile & Flash:** Open the source code located in the `/Firmware` directory using your preferred IDE (e.g., VS Code with PlatformIO or Arduino IDE). Select the correct target MCU board and upload the firmware.
+* **Calibrate Encoders:** Run the initial calibration routine embedded in the firmware to map the absolute zero-position of the AS5048A magnetic sensors relative to the brushless motor poles.
+
+### 3. System Interconnect & Operation
+* **Power Delivery:** Provide main system power via the dedicated power terminals on the custom PCB (ensure voltage matches your motor/driver design limits).
+* **Establish Data Links:** Hook up the Raspberry Pi Zero 2 W to the camera payload feeds and connect its communication lines (UART/SPI) to the FOC driver board to transmit tracking adjustments.
+* **Initiate Tracking:** Run your external tracking pipeline (such as an OpenCV script processing the video feed) to send real-time target coordinate errors to the gimbal, allowing the closed-loop FOC system to stabilize and lock onto the target.
 
 ---
 
