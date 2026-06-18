@@ -91,3 +91,6 @@ Follow these steps to set up, flash, assemble, and operate the EOTS gimbal:
 ## renders 
 ![EOTS 3D CAD Render](pics/front.png)
 ![EOTS 3D CAD Render](pics/render.png)
+![EOTS 3D CAD Render](pics/plane.png)
+
+
