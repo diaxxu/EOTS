@@ -37,17 +37,23 @@ The sealed sphere housing protects a dual-sensor array running image processing 
 
 ---
 
-# (BOM)
+# Bill of Materials (BOM)
 
-| Component Category | Description / Specifications | Cost (DH) |
-| :--- | :--- | :--- |
-| **Actuators** | 2x 2804 100KV Brushless Motors | 200 dh |
-| **Control Electronics** | Custom 4-Layer PCBA (STM32F405 / Dual DRV8313) | 1500 dh |
-| **Feedback Sensors** | 2x AS5048A 14-Bit Magnetic Encoders (Magnets Included) | 175.82 dh |
-| **Inertial Measurement** | MPU9250 IMU | Owned |
-| **Vision Payload** | IMX Camera Module + AMG8833 Thermal Array | 400 dh |
-| **Compute Core** | Raspberry Pi Zero 2 W | 300 dh |
-| **Rotary Interface** | 12-Channel High-Speed Capsule Slip Ring (12w) | 160 dh |
-| **Structural Frame** | Custom Chassis + 3D Printing Filament | 350 dh |
-| **Fasteners** | M2/M2.5/M3 Socket Head Cap Screws Kit (625pcs) | 218 dh |
-| **Interconnects** | 6-Pin JST-XH Pre-Crimped Wire Harnesses | 53.30 dh |
+| Components | Quantity | Price (dh) | Description |
+|:---|:---:|:---|:---|
+| 2804 100KV Brushless Motors | 2 | 345.42 | Actuators |
+| FOC custom pcb | 1 | 1500 | pcb 5 pcba 2 |
+| AS5048A | 2 | 194 | Magnetic Encoders magnet included |
+| MPU9250 | 1 | OWNED | IMU |
+| IMX 219 | 1 | 154.29 | CAMERA |
+| AMG8833 | 1 | 218 | thermal camera |
+| Raspberry Pi Zero 2 W | 1 | 300 | receive camera feeds |
+| Slip ring | 1 | 87.83 | 12wire slip ring |
+| custom chassis | 1 | 400 | metal 3d printed yoke |
+| 3d print shipping fee | 1 | 300 | 3d printing legion fee |
+| M2/M2.5/M3 screws kit | 1 | 218 | 625pcs kit |
+| JST-XH | 5 | 53.3 | connectors |
+
+### Budget Summary
+* **Total Cost:** `3,770.84 dh`
+* **Total in USD :** `~$407.30 USD`
