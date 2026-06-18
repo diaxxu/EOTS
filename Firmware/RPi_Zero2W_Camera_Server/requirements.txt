@@ -1,0 +1,2 @@
+# Native libcamera-vid wrapper requirements
+# No external wheel compilation required
