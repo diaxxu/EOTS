@@ -1,13 +1,13 @@
-# Project Aegis: Dual-Axis FOC EOTS Gimbal
+# Project EOTS: Dual-Axis FOC Gimbal
 
-An elite, high-precision Electro-Optical Targeting System built from scratch. This system utilizes Field Oriented Control (FOC) for continuous, high-torque stabilization and features a dual-camera sensor payload for thermal tracking and optical zoom.
+Ever wanted a camera system that can track anything say drones, planes, or cars? Introducing a high-precision, from-scratch Electro-Optical Targeting System (EOTS). Built with Field Oriented Control (FOC) for continuous, high-torque stabilization, it features a dual-camera sensor payload for synchronized thermal tracking and optical zoom.
 
-- [Project Aegis: Dual-Axis FOC EOTS Gimbal](#project-aegis-dual-axis-foc-eots-gimbal)
+- [Project EOTS: Dual-Axis FOC Gimbal](#project-eots-dual-axis-foc-gimbal)
 - [Core System Architecture](#core-system-architecture)
   - [Embedded Control & Power Distribution](#embedded-control--power-distribution)
   - [Mechatronics & Actuation](#mechatronics--actuation)
   - [Optical Payload](#optical-payload)
-- [Hardware Manifesto (BOM)](#hardware-manifesto-bom)
+- [(BOM)](#hardware-manifesto-bom)
 
 ---
 
@@ -27,16 +27,17 @@ The mechanical assembly routes power and signals through continuous rotational a
 * **Sensor Fusion:** An MPU9250 IMU tracks high-speed orientation dynamics in real-time.
 * **Feedback Loop:** AS5048A magnetic rotary encoders paired with shaft-mounted diametric neodymium magnets handle absolute angular tracking down to 14-bit resolution.
 * **Slip Ring Integration:** A 12-channel MSC-22-12 high-speed capsule slip ring passes continuous USB-C video data through the rotating non-motor pivot arm.
+* **Metal chassis** Metal 3D Printed arm to provide more than enough stability and rigidity.  
 
 ## Optical Payload
 The sealed sphere housing protects a dual-sensor array running image processing loops back to a central hub.
-* **Primary Optical:** IMX-series high-resolution camera module for target detection and optical zoom tracking.
+* **Primary Optical:** IMX219 high-resolution camera module for target detection and optical zoom tracking.
 * **Thermal Matrix:** AMG8833 8x8 infrared thermopile array for long-wave thermal signature targeting.
 * **Processing Unit:** Raspberry Pi Zero 2 W handles localized video streaming, telemetry generation, and targeting overlays.
 
 ---
 
-# Hardware Manifesto (BOM)
+# (BOM)
 
 | Component Category | Description / Specifications | Cost (DH) |
 | :--- | :--- | :--- |
