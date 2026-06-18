@@ -12,25 +12,25 @@ Ever wanted a camera system that can track anything say drones, planes, or cars?
 
 ---
 
-##  Repository Structure
+## 📂 Repository Structure
 
-
- Project-EOTS/
+```text
+Project-EOTS/
 ├── README.md                      
 ├── BOM.csv                        
 ├── zine.pdf                       
 │
 ├── PCB/                     
-│   ├── gerbers.zip               
-│   └── eots_schematic.json     
+│   ├── gerbers.zip                
+│   ├── eots_schematic.json     
 │   └── BOM.csv
 │
-├── CAD/                   
+├── CAD/                    
 │   ├── eots.F3z       
-│   └── 3d printables    
-│   └──PickAndPlace.csv
+│   ├── 3d printables    
+│   └── PickAndPlace.csv
 │
-└── Firmware/                     
+└── Firmware/                      
     ├── FOC_Gimbal_Driver_STM32/   
     │   ├── main.cpp              
     │   └── platformio.ini         
@@ -42,9 +42,8 @@ Ever wanted a camera system that can track anything say drones, planes, or cars?
     └── Ground_Control_Station/    
         ├── main.py                
         ├── tracking.py            
-        └── hud_display.py         
-
----
+        └── hud_display.py
+```
 
 # Core System Architecture
 
