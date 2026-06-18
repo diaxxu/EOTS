@@ -1,4 +1,5 @@
 # Project EOTS: Dual-Axis FOC Gimbal
+![EOTS 3D CAD Render](pics/facial.png)
 
 Ever wanted a camera system that can track anything say drones, planes, or cars? Introducing a high-precision, from-scratch Electro-Optical Targeting System (EOTS). Built with Field Oriented Control (FOC) for continuous, high-torque stabilization, it features a dual-camera sensor payload for synchronized thermal tracking and optical zoom.
 
@@ -57,3 +58,9 @@ The sealed sphere housing protects a dual-sensor array running image processing 
 ### Budget Summary
 * **Total Cost:** `3,770.84 dh`
 * **Total in USD :** `~$407.30 USD`
+
+# PICS 
+## zine 
+## renders 
+![EOTS 3D CAD Render](pics/front.png)
+![EOTS 3D CAD Render](pics/.png)
