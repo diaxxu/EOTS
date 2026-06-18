@@ -22,7 +22,7 @@ The custom 4-layer control board isolates high-frequency digital lines from high
 * **Interconnects:** 6-pin JST-XH vertical locking headers (B6B-XH-A) route encoder inputs directly into the MCU timers.
 * **Power Delivery:** Main system power is distributed via a high-amperage XT60 connector.
 ### schematics 
-![EOTS 3D CAD Render](pics/scheme.png)
+![EOTS 3D CAD Render](pics/schem.png)
 ![EOTS 3D CAD Render](pics/pcb.png)
 ![EOTS 3D CAD Render](pics/real.png)
 ## Mechatronics & Actuation
