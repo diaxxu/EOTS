@@ -12,6 +12,40 @@ Ever wanted a camera system that can track anything say drones, planes, or cars?
 
 ---
 
+##  Repository Structure
+
+
+ Project-EOTS/
+├── README.md                      
+├── BOM.csv                        
+├── zine.pdf                       
+│
+├── PCB/                     
+│   ├── gerbers.zip               
+│   └── eots_schematic.json     
+│   └── BOM.csv
+│
+├── CAD/                   
+│   ├── eots.F3z       
+│   └── 3d printables    
+│   └──PickAndPlace.csv
+│
+└── Firmware/                     
+    ├── FOC_Gimbal_Driver_STM32/   
+    │   ├── main.cpp              
+    │   └── platformio.ini         
+    │
+    ├── RPi_Zero2W_Camera_Server/  
+    │   ├── stream_server.py      
+    │   └── requirements.txt       
+    │
+    └── Ground_Control_Station/    
+        ├── main.py                
+        ├── tracking.py            
+        └── hud_display.py         
+
+---
+
 # Core System Architecture
 
 The custom 4-layer control board isolates high-frequency digital lines from high-current motor return paths to preserve analog signal integrity. 
