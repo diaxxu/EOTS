@@ -61,6 +61,7 @@ The sealed sphere housing protects a dual-sensor array running image processing 
 
 # PICS 
 ## zine 
+![EOTS 3D CAD Render](pics/zine.png)
 ## renders 
 ![EOTS 3D CAD Render](pics/front.png)
-![EOTS 3D CAD Render](pics/.png)
+![EOTS 3D CAD Render](pics/render.png)
