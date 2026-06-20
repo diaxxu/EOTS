@@ -101,22 +101,22 @@ Follow these steps to set up, flash, assemble, and operate the EOTS gimbal:
 
 | Components | Quantity | Price (dh) | Description |
 |:---|:---:|:---|:---|
-| 2804 100KV Brushless Motors | 2 | 345.42 | Actuators |
-| FOC custom pcb | 1 | 1500 | pcb 5 pcba 2 |
+| 2804 100KV Brushless Mo | 2 | 345.42 | Actuators |
+| FOC custom pcb | 1 | 1130.99 | Pcb 5 pcba 2 |
 | AS5048A | 2 | 194 | Magnetic Encoders magnet included |
 | MPU9250 | 1 | OWNED | IMU |
-| IMX 219 | 1 | 154.29 | CAMERA |
-| AMG8833 | 1 | 218 | thermal camera |
-| Raspberry Pi Zero 2 W | 1 | 300 | receive camera feeds |
-| Slip ring | 1 | 87.83 | 12wire slip ring |
-| custom chassis | 1 | 400 | metal 3d printed yoke |
+| IMX 219 | 1 | 154.29 | Camera |
+| AMG8833 | 1 | 218 | Thermal camera |
+| Raspberry Pi Zero 2 W | 1 | 280.00 | Receive camera feeds |
+| Slip ring | 1 | 87.83 | 12 Wire slip ring |
+| custom chassis | 1 | 296.03 | Metal 3d printed yoke |
 | 3d print shipping fee | 1 | 300 | 3d printing legion fee |
-| M2/M2.5/M3 screws kit | 1 | 218 | 625pcs kit |
-| JST-XH | 5 | 53.3 | connectors |
+| M2/M2.5/M3 screws kit | 1 | 112.96 | m2 m2.5 m3 screws 4/5/6/8mm pitch |
+| JST-XH | 5 | 33.6 | Connectors |
 
 ### Budget Summary
-* **Total Cost:** `3,770.84 dh`
-* **Total in USD :** `~$407.30 USD`
+* **Total Cost:** `3,153.12 dh`
+* **Total in USD :** `~$341.8 USD` FROM 410$ to this thanks to optimization in the bom 
 
 # PICS 
 ## zine 
