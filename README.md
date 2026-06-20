@@ -1,7 +1,7 @@
 # Project EOTS: Dual-Axis FOC Gimbal
 ![EOTS 3D CAD Render](pics/facial.png)
 
-### Why did i make it
+# Why did i make it
 
 Ever wanted a camera system that can track anything say drones, planes, or cars? Introducing a high-precision, from-scratch Electro-Optical Targeting System (EOTS). Built with Field Oriented Control (FOC) for continuous, high-torque stabilization, it features a dual-camera sensor payload for synchronized thermal tracking and optical zoom.
 
@@ -14,7 +14,7 @@ Ever wanted a camera system that can track anything say drones, planes, or cars?
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 Project-EOTS/
