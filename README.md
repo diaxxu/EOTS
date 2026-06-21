@@ -1,9 +1,10 @@
 # Project EOTS: Dual-Axis FOC Gimbal
 ![EOTS 3D CAD Render](pics/facial.png)
+A highly responsive and smooth gimbal capable of tracking targets up to 50m and with the help of two powerful brushless motors its made to be as cheap as possible with almost no drawback it can see thermal vision and normal vision
 
 # Why did i make it
 
-Ever wanted a camera system that can track anything say drones, planes, or cars? Introducing a high-precision, from-scratch Electro-Optical Targeting System (EOTS). Built with Field Oriented Control (FOC) for continuous, high-torque stabilization, it features a dual-camera sensor payload for synchronized thermal tracking and optical zoom.
+I wanted to build camera system that can track anything say drones, planes and cars. Introducing a high-precision, from-scratch Electro-Optical Targeting System (EOTS). Built with Field Oriented Control (FOC) for continuous, high-torque stabilization, it features a dual-camera sensor payload for synchronized thermal tracking and optical zoom.
 
 - [Project EOTS: Dual-Axis FOC Gimbal](#project-eots-dual-axis-foc-gimbal)
 - [Core System Architecture](#core-system-architecture)
