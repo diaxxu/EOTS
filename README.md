@@ -78,7 +78,7 @@ The sealed sphere housing protects a dual-sensor array running image processing 
   
 ---
 
-## 🚀 How to Use It
+##  How to Use It
 
 Follow these steps to set up, flash, assemble, and operate the EOTS gimbal:
 
