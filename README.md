@@ -26,11 +26,13 @@ Project-EOTS/
 │   ├── gerbers.zip                
 │   ├── eots_schematic.json     
 │   └── BOM.csv
+│   └── PickAndPlace.csv
 │
 ├── CAD/                    
-│   ├── eots.F3z       
-│   ├── 3d printables    
-│   └── PickAndPlace.csv
+│   ├── Assembly      
+│   ├── 3d printables
+│   ├── 3D metal printing│
+│   ├── EOTS.step
 │
 └── Firmware/                      
     ├── FOC_Gimbal_Driver_STM32/   
