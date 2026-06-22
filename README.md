@@ -109,7 +109,7 @@ Follow these steps to set up, flash, assemble, and operate the EOTS gimbal:
 | 2804 100KV Brushless Mo | 2 | 345.42 | Actuators |
 | FOC custom pcb | 1 | 1130.99 | Pcb 5 pcba 2 |
 | AS5048A | 2 | 194 | Magnetic Encoders magnet included |
-| MPU9250 | 1 | OWNED | IMU |
+| MPU9250 | 1 | OWNED(10) | IMU |
 | IMX 219 | 1 | 154.29 | Camera |
 | AMG8833 | 1 | 218 | Thermal camera |
 | Raspberry Pi Zero 2 W | 1 | 280.00 | Receive camera feeds |
@@ -120,7 +120,7 @@ Follow these steps to set up, flash, assemble, and operate the EOTS gimbal:
 | JST-XH | 5 | 33.6 | Connectors |
 
 ### Budget Summary
-* **Total Cost:** `3,153.12 dh`
+* **Total Cost:** `3,163.12dh` 
 * **Total in USD :** `~$341.8 USD` FROM 410$ to this thanks to optimization in the bom 
 
 # PICS 
