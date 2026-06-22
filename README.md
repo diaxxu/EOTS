@@ -71,7 +71,7 @@ The mechanical assembly routes power and signals through continuous rotational a
 * **Sensor Fusion:** An MPU9250 IMU tracks high-speed orientation dynamics in real-time.
 * **Feedback Loop:** AS5048A magnetic rotary encoders paired with shaft-mounted diametric neodymium magnets handle absolute angular tracking down to 14-bit resolution.
 * **Slip Ring Integration:** A 12-channel MSC-22-12 high-speed capsule slip ring passes continuous USB-C video data through the rotating non-motor pivot arm.
-* **Metal chassis** Metal 3D Printed arm to provide more than enough stability and rigidity.  
+* **Metal chassis:** Metal 3D Printed arm to provide more than enough stability and rigidity.  
 
 ## Optical Payload
 The sealed sphere housing protects a dual-sensor array running image processing loops back to a central hub.
