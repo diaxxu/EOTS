@@ -101,7 +101,7 @@ Follow these steps to set up, flash, assemble, and operate the EOTS gimbal:
 * **Initiate Tracking:** Run your external tracking pipeline (such as an OpenCV script processing the video feed) to send real-time target coordinate errors to the gimbal, allowing the closed-loop FOC system to stabilize and lock onto the target.
 
 ### Wire Diagram 
-![Alternative Text](images/bat.png)
+![EOTS 3D CAD Render](pics/bat.png)
 
 ---
 
